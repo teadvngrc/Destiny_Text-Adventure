@@ -1,0 +1,211 @@
+body {
+  background-color: black;
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size:15px;
+  line-height:150%;
+  text-align:center;
+}
+
+.topbar {
+  width:1100px;
+  padding:35px 0px 40px 0px;
+  background:black;
+  font-family: Didot "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  margin-left:150px;
+}
+#fly{
+  margin-top: 3cm;
+  margin-bottom: -50cm;
+}
+
+.links {
+  text-align: center;
+  background-color: #FF6A80;
+  width:100%;
+}
+.links a {
+  text-transform:uppercase;
+  font-size:20;
+  letter-spacing:1px;
+  font-weight:bold;
+  color:white;
+}
+.links a:hover {
+  color:#B78989;
+}
+
+.title {
+  text-align:center;
+  margin-top: 1cm;
+  text-transform:uppercase;
+  font-weight:600;
+  color:white;
+  font-size:100;
+}
+.subtitle {
+  font-size:15px;
+  margin-top: 1cm;
+}
+
+#about {
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size:40;
+  text-align:center;
+  margin-top: 18cm;
+  color:#FF6A80;
+  }
+.paragraph {
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size:22px;
+  color:gray;
+  text-align:justify,center;
+  letter-spacing:1px;
+  line-height: 1.8;
+  margin-left: 200px;
+  margin-right:200px;
+}
+
+#resources {
+  margin-top: 10cm;
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size:50;
+  font-weight: bold;
+  text-align:center;
+  color:#FF6A80;
+}
+#paraR{
+  color: white;
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size:28px;
+  text-align: left;
+  line-height: 1;
+}
+.paragraphsss a{
+  color: gray;
+  font-size: 20px;
+  line-height: 2.5;
+  text-align: left;
+}
+.paragraphsss{
+  text-align: justify;
+}
+#video1{
+  float: left;
+}
+#video2{
+  float: right;
+}
+.Vid1and2{
+margin-top: 3cm;
+color: white;
+font-size: 32px;
+font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+word-spacing: 2cm;
+}
+
+#contact {
+  position: fixed;
+  bottom: 0;
+  font-size:16px;
+  text-align: center;
+  background-color: pink;
+  width:100%;
+  height: 100px;
+  left: 0;
+}
+#credits {
+  margin-top: 10cm;
+  font-size: 20px;
+  color: white;
+}
+#footer{
+  color: white;
+}
+
+#myImage {
+  width: auto;
+  height: 600px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  mar
+  }
+#prompt, #prompt2{
+  width: 100%;
+  padding: 50px;
+  background-color: #FF6A80;
+  font-size: 25;
+  font-family:"Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  margin-top:20px;
+  text-align: center;
+  }
+#prompt2 {
+  display:block;
+}
+#classRoom {
+  display:none;
+}
+button {
+  visibility : visible;
+  background-color: pink;
+  font-size: 20px;
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  width: 5cm;
+  height: 1cm;
+  border-radius: 80px;
+
+}
+
+
+#nextBtn, #nextBtn2, #nextBtn3, #textbackBtn, #textlaterBtn,
+#nextBtn4, #nextBtn5, #nextBtn6,
+#nextBtn40, #nextBtn50, #nextBtn60{
+  display: none;
+}
+
+#start {
+  visibility: visible;
+  display: inline;
+}
+
+.who{
+  margin-top: 20cm;
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size:55;
+  text-align:center;
+  color:#FF6A80;
+}
+.image {
+  display: block;
+  text-align: left;
+  border-radius: 50%;
+  float: left;
+}
+.img-container {
+  height: 200px;
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 20;
+  text-align: justify;
+}
+.span{
+  color: white;
+}
+#julia{
+  height: 7cm;
+  width: 5cm;
+}
+#alex{
+  height: 6cm;
+  width: 5cm;
+}
+#keisha{
+  height: 7cm;
+  width: 5cm;
+}
+#tassja{
+  height: 7cm;
+  width: 5cm;
+}
+.picturess{
+  margin-left: 4cm;
+}

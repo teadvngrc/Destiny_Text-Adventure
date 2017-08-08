@@ -1,0 +1,159 @@
+<html>
+<head>
+
+  <link rel="stylesheet" type="text/css" href="Destiny.css">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="Destiny.js"></script>
+</head>
+<body>
+
+  <div class="topbar">
+
+
+      <div class="links">
+      <a href="#home">home</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <a href="#about">about</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <a href="#myImage">features</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <a href="#resources">resources</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <a href="#credits">credits</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+      </div>
+  </div>
+  <div class="title">D e s t i n y<br><div class="subtitle">Save a life. Don’t text and drive.</div></div>
+
+
+  <img id="fly" src="https://media.giphy.com/media/NWgylVa31IL3W/giphy.gif" alt="Butterfly gif" width="250" height="250">
+
+
+
+  <div id="about"><h1>About</h1></div>
+  <div class="paragraph"><p>Welcome to our website and our game "DESTINY." </br>
+Our purpose in creating this game is to show people who are not aware of <b> bullying, suicide,</b> and <b>distracted driving</b>
+that it is happening now and should not be belittled. Depending on what you choose, you will experience the harsh life of a teenage girl who goes through hardships. Below is the game you will play in order to do so. </p>
+  </div><br><br><br>
+
+
+  <source src="video.m4v" type="video/mp4">
+ <img id="myImage" src="FINALGIF.gif" width="1000" height="800">
+
+<video id = "visual" width="1000" height="800" controls>
+  <source src="video.m4v" type="video/mp4">
+</video>
+
+<video id = "vid" width="1000" height="800" controls>
+  <source src="bell.mp4" type="video/mp4">
+</video>
+
+<video id = "vid2" width="1000" height="800" controls>
+  <source src="crash.mp4" type="video/mp4">
+</video>
+
+<video id = "vid3" width="1000" height="800" controls>
+  <source src="textlater.mp4" type="video/mp4">
+</video>
+
+  <ul>
+
+    <br>
+  <div class="block"><p id = "prompt">Your alarm just rang, do you want to snooze your alarm or just get up?</p><p id = "prompt2">Do you want to text back now or text back later?</p></div>
+  <div id ="options">
+    <!--add new button here -->
+    <button id="startBtn" onclick="start()">Start</button>
+    <button id="snoozeBtn" onclick="mySnooze()">Snooze</button>
+    <button id="wakeUpBtn" onclick="wakeUp()">Wake up</button>
+    <button id="nextBtn" onclick="toClass()">Next</button>
+    <button id="nextBtn2" onclick="toLunch()">Next</button>
+    <button id="nextBtn3" onclick="danielle()">Next</button>
+    <button id="textbackBtn" onclick="textBack()">Text Back</button>
+    <button id="textlaterBtn" onclick="textLater()">Text Back Later</button>
+    <!-- This is for snooze -->
+    <button id="nextBtn4" onclick="danielle02()">Next</button>
+    <button id="nextBtn5" onclick="bell()">Next</button>
+    <button id="nextBtn6" onclick="car()">Next</button>
+    <!-- This is for wakeUp -->
+    <button id="nextBtn40" onclick="danielleOpt1()">Next</button>
+    <button id="nextBtn50" onclick="bell()">Next</button>
+    <button id="nextBtn60" onclick="car()">Next</button>
+
+
+    </div>
+</ul><br><br><br>
+
+<div id="resources"><h2>Resources<h2></div>
+
+<p id="paraR"> Here are some resources you can use to find out more about distracted driving, its impacts, and how you can help yourself.:</p>
+
+<div class="paragraphsss">
+<p><a href ="https://www.edgarsnyder.com/car-accident/cause-of-accident/cell-phone/cell-phone-statistics.html">Car Accident Statistics</a>
+<br>
+<a href ="https://www.geturgently.com/campaign/distracted-driving-awareness-month">Distracted Driving Awareness Month</a>
+<br>
+<a href ="https://www.nhtsa.gov/risky-driving/distracted-driving">Distracted Driving Stats</a>
+<br>
+<a href ="http://www.nsc.org/learn/NSC-Initiatives/Pages/distracted-driving-research-studies.aspx">Infographics</a>
+<br>
+<a href ="http://ic.galegroup.com/ic/suic/ReferenceDetailsPage/ReferenceDetailsWindow?failOverType=&query=&prodId=SUIC&windowstate=normal&contentModules=&display-query=&mode=view&displayGroupName=Reference&limiter=&currPage=&disableHighlighting=false&displayGroups=&sortBy=&search_within_results=&p=SUIC&action=e&catId=&activityType=&scanId=&documentId=GALE%7CEJ2181500294&source=Bookmark&u=mnkbeckerhs&jsid=ab8a72aca00a09e9f18601783ebb2b72">Texting While Driving</a>
+<br>
+<a href="https://www.cellcontrol.com/blog/6-organizations-committed-to-stop-texting-and-driving" >Organizations Committed to Stopping Texting and Driving</a>
+<br>
+<a href="http://impactteendrivers.org/" >Impact Teen Driver</a>
+<br>
+<a href="http://www.wnins.com/resources/personal/features/texting.shtml" >Cellphones and Driving</a>
+</p>
+</div>
+
+
+<div class="Vid1and2">
+<p> Videos </P> <br>
+<iframe id="video1" width="460" height="215" src="https://www.youtube.com/embed/mnw_7xI5klM?list=PLD027FA703901B38E" frameborder="0" allowfullscreen></iframe>
+<iframe id="video2" width="460" height="215" src="https://www.youtube.com/embed/Aeza_UOfBzI" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<h3 class="who">Who We Are!</h3>
+
+<div class="picturess">
+<p class="img-container">
+<img id="keisha" class="image" src="Keisha.JPG" alt="keisha's pic">
+<span class="span">
+  Hi my name is <strong style="color:#9D3434"> Kiesha Xiao</strong>
+</span>
+</p>
+
+<p class="img-container">
+<img id="julia" class="image" src="Julia.jpeg" alt="julia's pic">
+<span class="span">
+  Hi my name is <strong style="color:#9D3434"> Julia Mendoza</strong> I was born at the Philippines. When I was 6 my mom took me and
+  my two brothers here in America to have a better education and I have been living here ever since. Originally, I wanted to be a pediatrician
+  because I love children and would want them to help them, but I wasnt entirely sure if that's what I actually want to do in the future.
+  I joined Girls Who Code in orderto explore and expand my options. When I first joined this program, I was nervous because I didn't know how to code.
+  However, now I really enjoy how to code because it is very challenging for me. I do not regret joining Girls Who Code.
+</span>
+</p>
+
+<p class="img-container">
+<img id=tassja class="image" src="Tassja.jpg" alt="tassja's pic">
+<span class="span">
+  Hi my name is <strong style="color:#9D3434"> Tassja Divinadracia</strong>
+</span>
+</p>
+
+<p class="img-container">
+<img id="alex" class="image" src="Alex.jpg" alt="alex's pic">
+<span class="span">
+  Hi my name is <strong style="color:#9D3434"> Alejandra Padilla</strong>
+</span>
+</p>
+
+</div>
+
+<div id = "footer"><p>
+  &nbsp;<div id= "credits">Credits: </div>&nbsp;
+    © episodeinteractive.com
+    © KatlynGoesRawr episodeinteractive.com
+    © K.A episodeinteractive.com
+    © houseofsixten.com
+    © google.ca https://www.episodeinteractive.com/write/catalog/place#?tab=1
+    https://www.episodeinteractive.com/write/catalog/place#?tab=2 </p></div>
+    </div>
+</body>
+</html>
